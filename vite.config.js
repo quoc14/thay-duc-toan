@@ -8,7 +8,7 @@ export default defineConfig(({ command }) => {
   // - Khi deploy GitHub Pages (chưa có custom domain): đặt base = "/<tên-repo>/"
   // - Khi có custom domain: đổi base = "/"
   // - Khi chạy dev (npm run dev): base tự động là "/"
-  const base = command === "build" ? "/landingpage/" : "/";
+  const base = command === "build" ? "/thay-duc-toan/" : "/";
 
   return {
     base,
