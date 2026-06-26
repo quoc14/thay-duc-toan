@@ -3,14 +3,16 @@
 // Sửa các thông tin tại đây
 // =============================
 
+import { assetUrl } from "../utils/assetUrl";
+
 const siteConfig = {
   // Tên trung tâm
   name: "Thầy Đức Toán",
 
   // Logo - thay đường dẫn ảnh logo thật
-  logo: "/images/logo-dark.png",
-  logoLight: "/images/logo-light.png",
-  logoDark: "/images/logo-dark.png",
+  logo: assetUrl("images/logo-dark.png"),
+  logoLight: assetUrl("images/logo-light.png"),
+  logoDark: assetUrl("images/logo-dark.png"),
 
   // Slogan
   slogan: "Tận tâm - Đồng hành - Trao Tri Thức",

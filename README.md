@@ -306,10 +306,10 @@ git push -u origin main
 Sau khi deploy xong, trang web sẽ ở:
 
 ```
-https://<username>.github.io/landingpage/
+https://<username>.github.io/thay-duc-toan/
 ```
 
-> ⚠️ **Quan trọng:** `vite.config.js` đã set `base: "/landingpage/"` khi build để asset paths đúng trên GitHub Pages. Nếu đổi tên repo, phải đổi cả `base` trong `vite.config.js`.
+> ⚠️ **Quan trọng:** `vite.config.js` đã set `base: "/thay-duc-toan/"` khi build để asset paths đúng trên GitHub Pages. Nếu đổi tên repo, phải đổi cả `base` trong `vite.config.js`.
 
 ---
 
@@ -341,7 +341,7 @@ thayductoan.edu.vn
 
 ```js
 // Trước (GitHub Pages mặc định):
-const base = command === "build" ? "/landingpage/" : "/";
+const base = command === "build" ? "/thay-duc-toan/" : "/";
 
 // Sau (khi có custom domain):
 const base = "/";

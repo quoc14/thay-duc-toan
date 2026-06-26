@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { HiHeart, HiUsers, HiLightBulb } from "react-icons/hi";
 import siteConfig from "../data/siteConfig";
+import { assetUrl } from "../utils/assetUrl";
 
 const values = [
   {
@@ -38,7 +39,7 @@ export default function About() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/anhtrungtam.jpg"
+                src={assetUrl("images/anhtrungtam.jpg")}
                 alt={siteConfig.name}
                 className="aspect-[4/3] w-full h-full object-cover"
                 loading="lazy"

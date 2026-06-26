@@ -3,9 +3,11 @@
 // Để thay ảnh TKB: đặt ảnh vào /public/images/ và sửa đường dẫn image
 // =============================
 
+import { assetUrl } from "../utils/assetUrl";
+
 const schedule = {
   // Ảnh thời khóa biểu - thay bằng ảnh thật
-  image: "/images/schedule.jpg",
+  image: assetUrl("images/schedule.jpg"),
 
   // Tiêu đề
   title: "",
